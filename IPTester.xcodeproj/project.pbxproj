@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3FCCDD25B09FCD00FB81E5 /* IPTesterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCDC25B09FCD00FB81E5 /* IPTesterApp.swift */; };
+		2F3FCCDF25B09FCD00FB81E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCDE25B09FCD00FB81E5 /* ContentView.swift */; };
+		2F3FCCE125B09FD000FB81E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3FCCE025B09FD000FB81E5 /* Assets.xcassets */; };
+		2F3FCCE425B09FD000FB81E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3FCCE325B09FD000FB81E5 /* Preview Assets.xcassets */; };
+		2F3FCCE625B09FD000FB81E5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCE525B09FD000FB81E5 /* Persistence.swift */; };
+		2F3FCCE925B09FD000FB81E5 /* IPTester.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCE725B09FD000FB81E5 /* IPTester.xcdatamodeld */; };
+		2F3FCCF425B09FD000FB81E5 /* IPTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCF325B09FD000FB81E5 /* IPTesterTests.swift */; };
+		2F3FCCFF25B09FD000FB81E5 /* IPTesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCFE25B09FD000FB81E5 /* IPTesterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3FCCF025B09FD000FB81E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3FCCD125B09FCD00FB81E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3FCCD825B09FCD00FB81E5;
+			remoteInfo = IPTester;
+		};
+		2F3FCCFB25B09FD000FB81E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3FCCD125B09FCD00FB81E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3FCCD825B09FCD00FB81E5;
+			remoteInfo = IPTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F3FCCD925B09FCD00FB81E5 /* IPTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3FCCDC25B09FCD00FB81E5 /* IPTesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTesterApp.swift; sourceTree = "<group>"; };
+		2F3FCCDE25B09FCD00FB81E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F3FCCE025B09FD000FB81E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3FCCE325B09FD000FB81E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F3FCCE525B09FD000FB81E5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2F3FCCE825B09FD000FB81E5 /* IPTester.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IPTester.xcdatamodel; sourceTree = "<group>"; };
+		2F3FCCEA25B09FD000FB81E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3FCCEF25B09FD000FB81E5 /* IPTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3FCCF325B09FD000FB81E5 /* IPTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTesterTests.swift; sourceTree = "<group>"; };
+		2F3FCCF525B09FD000FB81E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3FCCFA25B09FD000FB81E5 /* IPTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3FCCFE25B09FD000FB81E5 /* IPTesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTesterUITests.swift; sourceTree = "<group>"; };
+		2F3FCD0025B09FD000FB81E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3FCCD625B09FCD00FB81E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3FCCEC25B09FD000FB81E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3FCCF725B09FD000FB81E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3FCCD025B09FCD00FB81E5 = {
+			isa = PBXGroup;
+			children = (
+				2F3FCCDB25B09FCD00FB81E5 /* IPTester */,
+				2F3FCCF225B09FD000FB81E5 /* IPTesterTests */,
+				2F3FCCFD25B09FD000FB81E5 /* IPTesterUITests */,
+				2F3FCCDA25B09FCD00FB81E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3FCCDA25B09FCD00FB81E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3FCCD925B09FCD00FB81E5 /* IPTester.app */,
+				2F3FCCEF25B09FD000FB81E5 /* IPTesterTests.xctest */,
+				2F3FCCFA25B09FD000FB81E5 /* IPTesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3FCCDB25B09FCD00FB81E5 /* IPTester */ = {
+			isa = PBXGroup;
+			children = (
+				2F3FCCDC25B09FCD00FB81E5 /* IPTesterApp.swift */,
+				2F3FCCDE25B09FCD00FB81E5 /* ContentView.swift */,
+				2F3FCCE025B09FD000FB81E5 /* Assets.xcassets */,
+				2F3FCCE525B09FD000FB81E5 /* Persistence.swift */,
+				2F3FCCEA25B09FD000FB81E5 /* Info.plist */,
+				2F3FCCE725B09FD000FB81E5 /* IPTester.xcdatamodeld */,
+				2F3FCCE225B09FD000FB81E5 /* Preview Content */,
+			);
+			path = IPTester;
+			sourceTree = "<group>";
+		};
+		2F3FCCE225B09FD000FB81E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F3FCCE325B09FD000FB81E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F3FCCF225B09FD000FB81E5 /* IPTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3FCCF325B09FD000FB81E5 /* IPTesterTests.swift */,
+				2F3FCCF525B09FD000FB81E5 /* Info.plist */,
+			);
+			path = IPTesterTests;
+			sourceTree = "<group>";
+		};
+		2F3FCCFD25B09FD000FB81E5 /* IPTesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3FCCFE25B09FD000FB81E5 /* IPTesterUITests.swift */,
+				2F3FCD0025B09FD000FB81E5 /* Info.plist */,
+			);
+			path = IPTesterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3FCCD825B09FCD00FB81E5 /* IPTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3FCD0325B09FD000FB81E5 /* Build configuration list for PBXNativeTarget "IPTester" */;
+			buildPhases = (
+				2F3FCCD525B09FCD00FB81E5 /* Sources */,
+				2F3FCCD625B09FCD00FB81E5 /* Frameworks */,
+				2F3FCCD725B09FCD00FB81E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPTester;
+			productName = IPTester;
+			productReference = 2F3FCCD925B09FCD00FB81E5 /* IPTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F3FCCEE25B09FD000FB81E5 /* IPTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3FCD0625B09FD000FB81E5 /* Build configuration list for PBXNativeTarget "IPTesterTests" */;
+			buildPhases = (
+				2F3FCCEB25B09FD000FB81E5 /* Sources */,
+				2F3FCCEC25B09FD000FB81E5 /* Frameworks */,
+				2F3FCCED25B09FD000FB81E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3FCCF125B09FD000FB81E5 /* PBXTargetDependency */,
+			);
+			name = IPTesterTests;
+			productName = IPTesterTests;
+			productReference = 2F3FCCEF25B09FD000FB81E5 /* IPTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F3FCCF925B09FD000FB81E5 /* IPTesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3FCD0925B09FD000FB81E5 /* Build configuration list for PBXNativeTarget "IPTesterUITests" */;
+			buildPhases = (
+				2F3FCCF625B09FD000FB81E5 /* Sources */,
+				2F3FCCF725B09FD000FB81E5 /* Frameworks */,
+				2F3FCCF825B09FD000FB81E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3FCCFC25B09FD000FB81E5 /* PBXTargetDependency */,
+			);
+			name = IPTesterUITests;
+			productName = IPTesterUITests;
+			productReference = 2F3FCCFA25B09FD000FB81E5 /* IPTesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3FCCD125B09FCD00FB81E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2F3FCCD825B09FCD00FB81E5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2F3FCCEE25B09FD000FB81E5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2F3FCCD825B09FCD00FB81E5;
+					};
+					2F3FCCF925B09FD000FB81E5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2F3FCCD825B09FCD00FB81E5;
+					};
+				};
+			};
+			buildConfigurationList = 2F3FCCD425B09FCD00FB81E5 /* Build configuration list for PBXProject "IPTester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3FCCD025B09FCD00FB81E5;
+			productRefGroup = 2F3FCCDA25B09FCD00FB81E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3FCCD825B09FCD00FB81E5 /* IPTester */,
+				2F3FCCEE25B09FD000FB81E5 /* IPTesterTests */,
+				2F3FCCF925B09FD000FB81E5 /* IPTesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3FCCD725B09FCD00FB81E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3FCCE425B09FD000FB81E5 /* Preview Assets.xcassets in Resources */,
+				2F3FCCE125B09FD000FB81E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3FCCED25B09FD000FB81E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3FCCF825B09FD000FB81E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3FCCD525B09FCD00FB81E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3FCCE625B09FD000FB81E5 /* Persistence.swift in Sources */,
+				2F3FCCE925B09FD000FB81E5 /* IPTester.xcdatamodeld in Sources */,
+				2F3FCCDF25B09FCD00FB81E5 /* ContentView.swift in Sources */,
+				2F3FCCDD25B09FCD00FB81E5 /* IPTesterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3FCCEB25B09FD000FB81E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3FCCF425B09FD000FB81E5 /* IPTesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3FCCF625B09FD000FB81E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3FCCFF25B09FD000FB81E5 /* IPTesterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F3FCCF125B09FD000FB81E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3FCCD825B09FCD00FB81E5 /* IPTester */;
+			targetProxy = 2F3FCCF025B09FD000FB81E5 /* PBXContainerItemProxy */;
+		};
+		2F3FCCFC25B09FD000FB81E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3FCCD825B09FCD00FB81E5 /* IPTester */;
+			targetProxy = 2F3FCCFB25B09FD000FB81E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F3FCD0125B09FD000FB81E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F3FCD0225B09FD000FB81E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3FCD0425B09FD000FB81E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IPTester/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IPTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F3FCD0525B09FD000FB81E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IPTester/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IPTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F3FCD0725B09FD000FB81E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				INFOPLIST_FILE = IPTesterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPTester.app/IPTester";
+			};
+			name = Debug;
+		};
+		2F3FCD0825B09FD000FB81E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				INFOPLIST_FILE = IPTesterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPTester.app/IPTester";
+			};
+			name = Release;
+		};
+		2F3FCD0A25B09FD000FB81E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				INFOPLIST_FILE = IPTesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IPTester;
+			};
+			name = Debug;
+		};
+		2F3FCD0B25B09FD000FB81E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G54NEN3F6;
+				INFOPLIST_FILE = IPTesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IPTester;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3FCCD425B09FCD00FB81E5 /* Build configuration list for PBXProject "IPTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3FCD0125B09FD000FB81E5 /* Debug */,
+				2F3FCD0225B09FD000FB81E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3FCD0325B09FD000FB81E5 /* Build configuration list for PBXNativeTarget "IPTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3FCD0425B09FD000FB81E5 /* Debug */,
+				2F3FCD0525B09FD000FB81E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3FCD0625B09FD000FB81E5 /* Build configuration list for PBXNativeTarget "IPTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3FCD0725B09FD000FB81E5 /* Debug */,
+				2F3FCD0825B09FD000FB81E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3FCD0925B09FD000FB81E5 /* Build configuration list for PBXNativeTarget "IPTesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3FCD0A25B09FD000FB81E5 /* Debug */,
+				2F3FCD0B25B09FD000FB81E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F3FCCE725B09FD000FB81E5 /* IPTester.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F3FCCE825B09FD000FB81E5 /* IPTester.xcdatamodel */,
+			);
+			currentVersion = 2F3FCCE825B09FD000FB81E5 /* IPTester.xcdatamodel */;
+			path = IPTester.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F3FCCD125B09FCD00FB81E5 /* Project object */;
+}
