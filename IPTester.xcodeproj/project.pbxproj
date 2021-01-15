@@ -15,6 +15,8 @@
 		2F3FCCE925B09FD000FB81E5 /* IPTester.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCE725B09FD000FB81E5 /* IPTester.xcdatamodeld */; };
 		2F3FCCF425B09FD000FB81E5 /* IPTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCF325B09FD000FB81E5 /* IPTesterTests.swift */; };
 		2F3FCCFF25B09FD000FB81E5 /* IPTesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCCFE25B09FD000FB81E5 /* IPTesterUITests.swift */; };
+		2F3FCD2825B0A12A00FB81E5 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCD2725B0A12A00FB81E5 /* Interface.swift */; };
+		2F3FCD2925B0A12A00FB81E5 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FCD2725B0A12A00FB81E5 /* Interface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2F3FCCFA25B09FD000FB81E5 /* IPTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3FCCFE25B09FD000FB81E5 /* IPTesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTesterUITests.swift; sourceTree = "<group>"; };
 		2F3FCD0025B09FD000FB81E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3FCD1325B09FF100FB81E5 /* IPTesterUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPTesterUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F3FCD2725B0A12A00FB81E5 /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				2F3FCCDC25B09FCD00FB81E5 /* IPTesterApp.swift */,
 				2F3FCCDE25B09FCD00FB81E5 /* ContentView.swift */,
+				2F3FCD2725B0A12A00FB81E5 /* Interface.swift */,
 				2F3FCCE025B09FD000FB81E5 /* Assets.xcassets */,
 				2F3FCCE525B09FD000FB81E5 /* Persistence.swift */,
 				2F3FCCEA25B09FD000FB81E5 /* Info.plist */,
@@ -132,6 +137,7 @@
 			children = (
 				2F3FCCFE25B09FD000FB81E5 /* IPTesterUITests.swift */,
 				2F3FCD0025B09FD000FB81E5 /* Info.plist */,
+				2F3FCD1325B09FF100FB81E5 /* IPTesterUITests-Bridging-Header.h */,
 			);
 			path = IPTesterUITests;
 			sourceTree = "<group>";
@@ -203,13 +209,16 @@
 				TargetAttributes = {
 					2F3FCCD825B09FCD00FB81E5 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					2F3FCCEE25B09FD000FB81E5 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 2F3FCCD825B09FCD00FB81E5;
 					};
 					2F3FCCF925B09FD000FB81E5 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 2F3FCCD825B09FCD00FB81E5;
 					};
 				};
@@ -266,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F3FCCE625B09FD000FB81E5 /* Persistence.swift in Sources */,
+				2F3FCD2825B0A12A00FB81E5 /* Interface.swift in Sources */,
 				2F3FCCE925B09FD000FB81E5 /* IPTester.xcdatamodeld in Sources */,
 				2F3FCCDF25B09FCD00FB81E5 /* ContentView.swift in Sources */,
 				2F3FCCDD25B09FCD00FB81E5 /* IPTesterApp.swift in Sources */,
@@ -277,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F3FCCF425B09FD000FB81E5 /* IPTesterTests.swift in Sources */,
+				2F3FCD2925B0A12A00FB81E5 /* Interface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IPTester/Preview Content\"";
 				DEVELOPMENT_TEAM = 3G54NEN3F6;
@@ -437,6 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IPTester/Preview Content\"";
 				DEVELOPMENT_TEAM = 3G54NEN3F6;
@@ -469,6 +483,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G54NEN3F6;
 				INFOPLIST_FILE = IPTesterTests/Info.plist;
@@ -480,6 +495,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTesterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPTester.app/IPTester";
@@ -491,6 +507,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G54NEN3F6;
 				INFOPLIST_FILE = IPTesterTests/Info.plist;
@@ -512,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G54NEN3F6;
 				INFOPLIST_FILE = IPTesterUITests/Info.plist;
@@ -522,6 +540,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTesterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IPTesterUITests/IPTesterUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = IPTester;
@@ -532,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G54NEN3F6;
 				INFOPLIST_FILE = IPTesterUITests/Info.plist;
@@ -542,6 +563,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.erricson.IPTesterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IPTesterUITests/IPTesterUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = IPTester;
